@@ -1,0 +1,44 @@
+[
+  {
+    "name": "conductor-openstack-plugin",
+    "display_name": "Conductor OpenStack v3",
+    "description": "A Conductor Plugin that provision resources in OpenStack using the OpenStack SDK.",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.03/oslogo.png",
+    "version": "26.3.0",
+    "yaml_urls": [
+      {
+        "dsl_version": "cloudify_dsl_1_4",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.3.0/plugin_1_4.yaml"
+      }
+    ],
+    "wagon_urls": [
+      {
+        "release": "manylinux",
+        "arch": "x86_64",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.3.0/conductor_openstack_plugin-26.3.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 57185923
+      }
+    ]
+  },
+  {
+    "name": "conductor-kubernetes-plugin",
+    "display_name": "Conductor Kubernetes",
+    "description": "Conductor plugin for packaging Kubernetes microservices in Conductor blueprints",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.03/kube-icon.png",
+    "version": "26.3.0",
+    "yaml_urls": [
+      {
+        "dsl_version": "cloudify_dsl_1_4",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.3.0/plugin_1_4.yaml"
+      }
+    ],
+    "wagon_urls": [
+      {
+        "release": "manylinux",
+        "arch": "x86_64",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.3.0/conductor_kubernetes_plugin-26.3.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 45444966
+      }
+    ]
+  }
+]
