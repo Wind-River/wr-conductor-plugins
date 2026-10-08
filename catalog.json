@@ -3,20 +3,20 @@
     "name": "conductor-openstack-plugin",
     "display_name": "Conductor OpenStack v3",
     "description": "A Conductor Plugin that provision resources in OpenStack using the OpenStack SDK.",
-    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.03/oslogo.png",
-    "version": "26.3.0",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.10/logo.png",
+    "version": "26.10.0",
     "yaml_urls": [
       {
         "dsl_version": "cloudify_dsl_1_4",
-        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.3.0/plugin_1_4.yaml"
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.10.0/plugin.yaml"
       }
     ],
     "wagon_urls": [
       {
         "release": "manylinux",
         "arch": "x86_64",
-        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.3.0/conductor_openstack_plugin-26.3.0-manylinux-py311-none-linux_x86_64.wgn",
-        "file_size": 57185923
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.10.0/conductor_openstack_plugin-26.10.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 47161305
       }
     ]
   },
@@ -24,20 +24,62 @@
     "name": "conductor-kubernetes-plugin",
     "display_name": "Conductor Kubernetes",
     "description": "Conductor plugin for packaging Kubernetes microservices in Conductor blueprints",
-    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.03/kube-icon.png",
-    "version": "26.3.0",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.10/logo.png",
+    "version": "26.10.0",
     "yaml_urls": [
       {
         "dsl_version": "cloudify_dsl_1_4",
-        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.3.0/plugin_1_4.yaml"
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.10.0/plugin.yaml"
       }
     ],
     "wagon_urls": [
       {
         "release": "manylinux",
         "arch": "x86_64",
-        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.3.0/conductor_kubernetes_plugin-26.3.0-manylinux-py311-none-linux_x86_64.wgn",
-        "file_size": 45444966
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-kubernetes-plugin-26.10.0/conductor_kubernetes_plugin-26.10.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 47444303
+      }
+    ]
+  },
+  {
+    "name": "conductor-helm-plugin",
+    "display_name": "Conductor Helm",
+    "description": "Conductor Helm 3 plugin",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.10/logo.png",
+    "version": "26.10.0",
+    "yaml_urls": [
+      {
+        "dsl_version": "cloudify_dsl_1_4",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-helm-plugin-26.10.0/plugin.yaml"
+      }
+    ],
+    "wagon_urls": [
+      {
+        "release": "manylinux",
+        "arch": "x86_64",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-helm-plugin-26.10.0/conductor_helm_plugin-26.10.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 34262172
+      }
+    ]
+  },
+  {
+    "name": "conductor-fabric-plugin",
+    "display_name": "Conductor Fabric",
+    "description": "Conductor Plugin for running fabric tasks or commands from the manager",
+    "logo_url": "https://raw.githubusercontent.com/Wind-River/wr-conductor-plugins/26.10/logo.png",
+    "version": "26.10.0",
+    "yaml_urls": [
+      {
+        "dsl_version": "cloudify_dsl_1_4",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-fabric-plugin-26.10.0/plugin.yaml"
+      }
+    ],
+    "wagon_urls": [
+      {
+        "release": "manylinux",
+        "arch": "x86_64",
+        "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-fabric-plugin-26.10.0/conductor_fabric_plugin-26.10.0-manylinux-py311-none-linux_x86_64.wgn",
+        "file_size": 15275107
       }
     ]
   }
