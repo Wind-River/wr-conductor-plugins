@@ -16,7 +16,7 @@
         "release": "manylinux",
         "arch": "x86_64",
         "url": "https://github.com/Wind-River/wr-conductor-plugins/releases/download/conductor-openstack-plugin-26.10.0/conductor_openstack_plugin-26.10.0-manylinux-py311-none-linux_x86_64.wgn",
-        "file_size": 47161305
+        "file_size": 47161750
       }
     ]
   },
